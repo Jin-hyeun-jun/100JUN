@@ -3,7 +3,8 @@ int main()
 {
     int a, b, c, i = 0, d = 0, e;
     scanf("%d %d", &a, &b);
-    int arr[b + 1] = {};
+    
+    int arr[b + 1] = {0};
     while (a > 0)
     {
         scanf("%d", &c);
